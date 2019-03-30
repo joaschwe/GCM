@@ -114,6 +114,11 @@ require './includes/nav.inc.php';
     .noUnderline {
         text-decoration: none;
     }
+    .none {
+        font-weight: bold;
+        text-decoration: none;
+        color:#6b6b6b;
+    }
 
 </style>
 <!------------------------------------------>
@@ -135,6 +140,7 @@ require './includes/nav.inc.php';
             <div class="card-content">
                 <h3 style="margin-bottom:0px;">Island Fresh Jelly Soap</h3>
                 <p class="location" style="font-size: 14px; margin-left: 0; text-align: left; margin-top:0;">
+                    <span class="none">John Tom's BBQ</span><br>
                     A <span style="font-size: 16px; font-family: ClickerScript-Regular, serif;">Good</span> Craftsman
                     since 2018<br>
                     Muncie, IN
@@ -167,7 +173,11 @@ require './includes/nav.inc.php';
             <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
             <div class="card-content">
                 <h3 style="margin-bottom:0px;">Island Fresh Jelly Soap</h3>
-                <p class="location" style="font-size: 14px; margin-left: 0; text-align: left; margin-top:0;">Muncie, IN &emsp13; | &emsp13;Since 2018</p>
+                <p class="location" style="font-size: 14px; margin-left: 0; text-align: left; margin-top:0;">
+                    <span class="none">John Tom's BBQ, Muncie, IN</span><br>
+                    A <span style="font-size: 16px; font-family: ClickerScript-Regular, serif;">Good</span> Craftsman
+                    since 2018
+                </p>
                 <p class="prod_description">
                     Its  Bahama like fragrance will treat you to a tropical island vacation. Fresh greenery, lavender, vanilla, rose,...
                 </p>
@@ -185,7 +195,9 @@ require './includes/nav.inc.php';
             <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
             <div class="card-content">
                 <h3 style="margin-bottom:0px;">Island Fresh Jelly Soap</h3>
-                <p class="location" style="font-size: 13px; margin-left: 0; text-align: left; margin-top:0;">Muncie, IN &emsp13;|&emsp13; Since 2018</p>
+                <p class="location" style="font-size: 13px; margin-left: 0; text-align: left; margin-top:0;">
+                    <span class="none">John Tom's BBQ</span><br>
+                    Muncie, IN &emsp13;|&emsp13; Since 2018</p>
                 <p class="prod_description">
                     Its  Bahama like fragrance will treat you to a tropical island vacation. Fresh greenery, lavender, vanilla, rose,...
                 </p>
@@ -215,6 +227,7 @@ require './includes/nav.inc.php';
                     <div class="card-content">
                         <h3 style="margin-bottom:0px;">Island Fresh Jelly Soap</h3>
                         <p class="location-secondary">
+                            <span class="none">John Tom's BBQ</span><br>
                             A <span class="spanGood">Good</span> Craftsman since 2018<br>
                             Muncie, IN
                         </p>
@@ -235,7 +248,7 @@ require './includes/nav.inc.php';
                 <div class="card-content">
                     <h3 style="margin-bottom:0px;">Island Fresh Jelly Soap</h3>
                     <p class="location-secondary">
-                        Muncie, IN<br>
+                        <span class="none">John Tom's BBQ</span><br>
                         A <span class="spanGood">Good</span> Craftsman since 2018
                     </p>
                 </div>
@@ -254,7 +267,8 @@ require './includes/nav.inc.php';
                 <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
                 <div class="card-content">
                     <a href="#"><h3 style="margin-bottom:0px;">Island Fresh Jelly Soap</h3></a>
-                    <p class="location" style="font-size: 14px; margin-left: 0; text-align: left; margin-top:0;">Muncie, IN &emsp13;<span style="color: #8DC63F;">|</span> &emsp13;Since 2018</p>
+                    <p class="location" style="font-size: 14px; margin-left: 0; text-align: left; margin-top:0;">
+                        John Tom's BBQ&emsp13;&emsp13;<span style="color: #8DC63F;">|</span> &emsp13;&emsp13;Muncie, IN</p>
                     <div class="button" style="display: flex; justify-content: space-between;">
                         <p style="font-weight: bold;">8 0z.</p>
                         <p class="price">$11.95</p>
