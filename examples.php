@@ -1,7 +1,7 @@
 <?php
 //require './includes/config.php';
 require './includes/header.inc.php';
-require './includes/nav.inc.php';
+//require './includes/nav.inc.php';
 
 //echo $_SERVER['SCRIPT_FILENAME'];
 ?>
@@ -129,7 +129,7 @@ require './includes/nav.inc.php';
 
     <h1>Tile examples:</h1>
     <h3>Primary Tiles: Bath & Beauty / Product list page</h3>
-    <p>In order: &emsp14;&emsp14;&emsp14;   Ver1 stylized location & add to cart overlay &emsp14;&emsp14;&emsp14;   | &emsp14;&emsp14;&emsp14;   Ver2 plain location&emsp14;&emsp14;  &emsp14;  | &emsp14; &emsp14;&emsp14;  Ver3 slightly smaller plain location</p>
+    <p>In order: &emsp14;&emsp14;&emsp14;   Ver1 stylized location & add to cart overlay &emsp14;&emsp14;&emsp14;   | &emsp14;&emsp14;&emsp14;   Ver2 stylized location&emsp14;&emsp14;  &emsp14;  | &emsp14; &emsp14;&emsp14;  Ver3 slightly smaller plain location</p>
 
 <!--    product tile example-->
     <div class="card-container">
@@ -216,7 +216,7 @@ require './includes/nav.inc.php';
 
 <!--    SECONDARY PRODUCT TILES-->
     <h3>Secondary Tiles: home page or "more items" at bottom of individual product page and "Products by this Craftsman" at bottom of individual craftsman page</h3>
-    <p>In order (all have description hover): &emsp14;&emsp14;&emsp14;   Ver1 stylized location &emsp14;&emsp14;&emsp14;   | &emsp14;&emsp14;&emsp14;   Ver2 stylized location&emsp14;&emsp14;  &emsp14;  | &emsp14; &emsp14;&emsp14;  Ver3 plain location with size and cost</p>
+    <p>In order (all have description hover): &emsp14;&emsp14;&emsp14;   Ver1 &emsp14;&emsp14;&emsp14;   | &emsp14;&emsp14;&emsp14;   Ver2&emsp14;&emsp14;  &emsp14;  | &emsp14; &emsp14;&emsp14;  Ver3</p>
 
     <div class="card-container">
         <!--        FIRST-->
@@ -298,7 +298,7 @@ require './includes/nav.inc.php';
 
 <!--    CRAFTSMEN-->
     <h3>Craftsmen main page</h3>
-    <p>In order (all have description hover): &emsp14;&emsp14;&emsp14;   Ver1 stylized location &emsp14;&emsp14;&emsp14;   | &emsp14;&emsp14;&emsp14;   Ver2 stylized location&emsp14;&emsp14;  &emsp14;  | &emsp14; &emsp14;&emsp14;  Ver3 stylized location</p>
+    <p>In order (all have description hover): &emsp14;&emsp14;&emsp14;   Ver1 &emsp14;&emsp14;&emsp14;   | &emsp14;&emsp14;&emsp14;   Ver2&emsp14;&emsp14;  &emsp14;  | &emsp14; &emsp14;&emsp14;  Ver3</p>
 
 
 
