@@ -16,12 +16,66 @@ function setBindings() {
         //     });
         // }
 
+    // character delimiter for primary cards
     $(function(){
         $(".prod_description").each(function(i){
             len=$(this).text().length;
             if(len>10)
             {
-                var moreStmt = $(this).text($(this).text().substr(0,105)+'...').append('<span style="color: green;">more');
+                var url = '<a href="good_product_item.php"><span style="color: #8DC63F;">more<span>';
+                var moreStmt = $(this).text($(this).text().substr(0,104)+'...').append(url);
+                // var more = $(this).css('color', 'green');
+
+            }
+        });
+    });
+
+    // character delimiter for secondary prod cards
+    $(function(){
+        $(".prod_description_second").each(function(i){
+            len=$(this).text().length;
+            if(len>10)
+            {
+                var moreStmt = $(this).text($(this).text().substr(0,58)+'...').append('<span style="color: #8DC63F;">more');
+                // var more = $(this).css('color', 'green');
+
+            }
+        });
+    });
+
+    // character delimiter for text box overlay on secondary prod cards
+    $(function(){
+        $(".text").each(function(i){
+            len=$(this).text().length;
+            if(len>10)
+            {
+                var moreStmt = $(this).text($(this).text().substr(0,195)+'...').append('<span style="color: #8DC63F;">more');
+                // var more = $(this).css('color', 'green');
+
+            }
+        });
+    });
+
+    // character delimiter for text box overlay on primary prod cards
+    $(function(){
+        $(".js_text-prod-primary").each(function(i){
+            len=$(this).text().length;
+            if(len>10)
+            {
+                var moreStmt = $(this).text($(this).text().substr(0,150)+'...').append('<span style="color: #8DC63F;">more');
+
+            }
+        });
+    });
+
+    $(function(){
+        $(".craft_description").each(function(i){
+            len=$(this).text().length;
+            if(len>10)
+            {
+                // var url = '<a href="good_product_item.php"><span style="color: #8DC63F;">more<span>';
+                var more = '<span style="color: #8DC63F;">more<span>';
+                var moreStmt = $(this).text($(this).text().substr(0,104)+'...').append(more);
                 // var more = $(this).css('color', 'green');
 
             }

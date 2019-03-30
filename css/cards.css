@@ -8,6 +8,7 @@ margin-left:20px; <--but then there's 20px added on to last child, too
     flex-wrap: wrap;
     justify-content:space-between;
     flex-direction:row;
+    /*position: relative;*/
     /*background-color: pink;*/
 }
 .inline {
