@@ -16,19 +16,24 @@ require './includes/nav.inc.php';
                 <a href="cause-Hollis.php"><img src="images/causes/Hill_Adams_Cause.jpg"></a>
             </div>
             <div class="card">
-                <a href="cause.php"><img src="images/causes/causeHome/Home-Brewers-Association.png"></a>
+                <a href="cause-Hollis.php"><img src="images/causes/causeHome/Home-Brewers-Association.png"></a>
             </div>
             <div class="card">
+                <a href="cause-Hollis.php">
                 <img src="images/causes/causeHome/boysgirlsclub.png">
+                </a>
             </div>
             <div class="card">
-                <img src="images/causes/causeHome/autism.png">
+                <a href="cause-Hollis.php">
+                <img src="images/causes/causeHome/autism.png"></a>
             </div>
             <div class="card">
-                <img src="images/causes/causeHome/red.png">
+                <a href="cause-Hollis.php">
+                <img src="images/causes/causeHome/red.png"></a>
             </div>
             <div class="card">
-                <img src="images/causes/causeHome/childrens.jpg">
+                <a href="cause-Hollis.php">
+                <img src="images/causes/causeHome/childrens.jpg"></a>
             </div>
 <!--            <div class="card">-->
 <!--                <img src="images/causes/causeHome/coworker.jpg">-->

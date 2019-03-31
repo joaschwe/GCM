@@ -9,6 +9,13 @@ colors {
 
 }
 
+.color {
+    color:#8DBE5A;
+    text-decoration: none;
+}
+.grey {
+    color: #8e8e8e;
+}
 /*
 Myriad Pro is main font
 */
@@ -33,10 +40,10 @@ html, body {
     font-size: 16px;
     /*width: 100%;*/
     margin:auto;
-    /*min-width: 1024px;*/
-    width: 1024px;
+    min-width: 1070px;
+    /*width: 1024px;*/
     height:100%;
-    /*max-width: 1440px;*/
+    max-width: 1440px;
     /*background-color: pink;*/
 }
 
@@ -200,10 +207,30 @@ img.knot {
     display: flex;
     justify-content: space-between;
     margin-bottom:5vh;
-    /*background-color:orange;*/
+    background-color:orange;
 }
 
 /* ---- GALLERY ---- */
+.itemNavGroup {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+p.navRight a {
+    text-align: right;
+    color: #8e8e8e;
+}
+
+p.navLeft a {
+    text-align: right;
+    color: #8e8e8e;
+}
+
+p.navLeft a:hover, p.navRight a:hover {
+    color:#8DBE5A;
+    text-decoration: underline;
+}
+
 
 p.more {
     width: 100%;
@@ -211,15 +238,16 @@ p.more {
     margin-right:1.5vw;
     margin-bottom:3.5vw;
     text-align: right;
-    color: #8DC63F;
+    color: #8e8e8e;
     cursor: pointer;
 
     /*background-color: pink;*/
 }
+
 p.more a {
-    color: #8DC63F;
+    color: #8e8e8e;
     text-decoration: none;
-    border-bottom:1px solid #8DC63F;
+    border-bottom:1px solid #8e8e8e;
 }
 p.more span {
     font-family: "ClickerScript-Regular", serif;
@@ -236,6 +264,7 @@ p.more span {
 }
 
 
+
 /*-------------ABOUT & CRAFTMAN--------------*/
 .about, .craftman, .cause {
     width: 100%;
@@ -246,7 +275,7 @@ p.more span {
     align-content: center;
 }
 .craftman {
-    margin-bottom: 100px;
+    /*margin-bottom: 40px;*/
 }
 .aboutContent {
     width:85%;
@@ -257,11 +286,12 @@ p.more span {
 
 }
 .craftmanContent {
-    margin-bottom:100px;
+    margin-bottom:40px;
 }
 .flex-craft, .flex-cause {
     display: flex;
-    margin-bottom:40px;
+    margin-bottom:20px;
+    /*background-color:orange;*/
     /*justify-content: flex-start;*/
 }
 .maintitle {
@@ -270,9 +300,13 @@ p.more span {
     /*background-color: lightgoldenrodyellow;*/
 }
 .maintitle-craft, .maintitle-cause {
-    margin: 0 0 20px 0;
-    width:40%;
+    margin:0;
+    padding-top:10px;
+    width:57%;
     /*background-color: lightcyan;*/
+}
+.maintitle-craft h3, .maintitle-cause h3 {
+    margin-bottom:0;
 }
 .social-media i {
     font-family:'FontAwesome', sans-serif;
@@ -292,14 +326,14 @@ input#inline {
     width:300px;
     border:1px solid #A7A9AC;
 }
-h3.clicker-sansSerif, h3.craft-subhead, h4.location {
+h3.clicker-sansSerif, h3.craft-subhead {
     font-family: serif;
-    font-size: 44px;
+    font-size: 36px;
     font-weight: normal;
     text-align: left;
     width:100%;
-    margin-bottom:10px;
-    padding-left:10px;
+    /*margin-bottom:10px;*/
+    /*padding-left:10px;*/
     color:#6b6b6b;
 }
 h3.craft-subhead {
@@ -336,20 +370,27 @@ h4.location span {
 }
 .quote-section {
     margin:0;
-    /*background-color: orange;*/
+    width: 100%;
+    background-color: orange;
+    padding:20px;
+    box-sizing: border-box;
 }
 .quote-section p {
-    width:94%;
-    margin-left: 70px;
-    padding-right:60px;
-    box-sizing: border-box;
+    width:100%;
+    /*margin-left: 70px;*/
+    /*padding-right:60px;*/
+
     /*background-color: tan;*/
 }
-.sort {
+/* divider between content and list of more items */
+.moreItems {
     display: flex;
     justify-content: space-between;
+    margin-bottom:-10px;
+    border-top: 1px solid #8e8e8e;
+    padding-top:40px;
 }
-.sort p {
+.moreItems p {
     font-size:18px;
     margin-top: 5px;
 }
@@ -358,12 +399,20 @@ h4.location span {
     width: 55%;
     /*background-color: lightpink;*/
 }
-.craft-img, .cause-img {
-    margin-right:30px;
-    width:50%;
+.craft-img {
+    margin-right:40px;
+    width:60%;
     max-width:550px;
     /*background-color: lightsalmon;*/
 }
+
+.cause-img {
+    margin-right:20px;
+    width:45%;
+    max-width:550px;
+    /*background-color: lightsalmon;*/
+}
+
 .craft-img img, .cause-img img {
     margin:0;
     width:100%;
@@ -608,7 +657,8 @@ h3.clicker-serif-question span {
 }
 .causeAmt {
     width: 100%;
-    margin: 40px auto 0 auto;
+    margin: 0 auto 0px auto;
+    /*background-color: brown;*/
 }
 h3.amt {
     color: #6b6b6b;
@@ -1377,4 +1427,19 @@ button.continueBtn:hover {
     color:#8DC63F;
     border:2px solid #8DC63F;
     background-color:white;
+}
+
+
+
+.js_more {
+    overflow: hidden;
+    margin-top:20px;
+}
+
+
+.container a {
+    text-decoration: none;
+}
+.content-info a {
+    color:#8DBE5A;
 }

@@ -15,18 +15,6 @@ if ($title == 'Faqs') {
 ?>
 
 
-<!--<!DOCTYPE html>-->
-<!--<html lang="en">-->
-<!--<head>-->
-<!--    <meta charset="UTF-8">-->
-<!--    <meta name="description" content="">-->
-<!--    <meta name="author" content="Todd Shelton">-->
-<!--    <meta name="viewport"-->
-<!--          content="width=device-width, initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=1.0">-->
-<!--    <title>GCM</title>-->
-<!--    <link rel="stylesheet" href="--><?php //echo ABSOLUTE_PATH; ?><!--css/styles.css">-->
-<!--</head>-->
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -53,6 +41,7 @@ if ($title == 'Faqs') {
     <link rel="stylesheet" type="text/css" href="../css/nav.css" />
     <link rel="stylesheet" type="text/css" href="../css/header.css" />
     <link rel="stylesheet" type="text/css" href="../css/cards.css" />
+    <link rel="stylesheet" type="text/css" href="../css/overlay.css" />
     <link rel="stylesheet" type="text/css" href="../css/fonts/clicker-font.css" />
     <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css" />
 <!--    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.css" />-->
@@ -60,6 +49,7 @@ if ($title == 'Faqs') {
 <!--    <link rel="stylesheet" type="text/css" href="../css/hamburger.css" />-->
 
     <script src="../lib/jquery-3.1.1.min.js"></script>
+    <script src="../lib/readmore.min.js"></script>
 <!--    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
 
 </head>

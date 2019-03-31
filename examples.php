@@ -7,120 +7,8 @@ require './includes/header.inc.php';
 ?>
 
 <!------------------------------------------>
-<style>
-    .xs {
-        position: relative;
-        /*width: 50%;*/
-    }
 
-    .overlay {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-    }
 
-    .textBox {
-        transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-        width:100%;
-
-    }
-
-    .xs:hover .overlay {
-        opacity: 0.2;
-    }
-
-    .xs:hover .textBox {
-        opacity: 1;
-    }
-
-    .text {
-        /*background-color: white;*/
-        color: black;
-        font-size: 17px;
-        padding: 16px 32px;
-        line-height: 1.4;
-    }
-
-    .js_text-prod-primary {
-        color: black;
-        font-size: 16px;
-        padding: 16px 32px;
-    }
-
-    .goTo {
-        text-decoration: none;
-        font-size:16px;
-    }
-    .goTo:hover {
-        color:green;
-    }
-    .addToCart {
-        background-color: #8DC63F;
-        color:white;
-        padding:5px;
-        font-size:14px;
-        margin-left:auto;
-    }
-
-    .addToCart:hover {
-        background-color:white;
-        border:2px solid #8DC63F;
-        color:#8DC63F;
-    }
-    .addToCart-lg {
-        background-color: #8DC63F;
-        color:white;
-        padding:10px;
-        font-size:16px;
-        border:2px solid #8DC63F;
-    }
-    .addToCart-lg:hover {
-        background-color:white;
-        border:2px solid #8DC63F;
-        color:#8DC63F;
-    }
-
-    .button-primaryTile {
-        display: flex;
-        justify-content: space-between;
-        height:30px;
-    }
-    hr {
-        width: 70%;
-        margin:auto;
-        margin-bottom:20px;
-        border-top: 1px solid green;"
-    }
-    .spanGood {
-        font-size: 18px;
-        font-family: ClickerScript-Regular, serif;"
-    }
-    .location-secondary {
-        font-size: 14px;
-        margin-left: 0;
-        text-align: left;
-        margin-top:0;"
-    }
-    .noUnderline {
-        text-decoration: none;
-    }
-    .none {
-        font-weight: bold;
-        text-decoration: none;
-        color:#6b6b6b;
-    }
-
-</style>
 <!------------------------------------------>
 
 
@@ -282,15 +170,7 @@ require './includes/header.inc.php';
             </a>
         </div>
 
-
-
     </div>
-
-
-
-
-
-
 
 
 
@@ -305,7 +185,7 @@ require './includes/header.inc.php';
         <div class="card-container">
             <!--        FIRST-->
             <div class="card xs">
-                <a class="noUnderline" href="craftman_johntomsBBQ.php">
+                <a href="craftman_johntomsBBQ.php">
                     <div class="overlay">
                 <img src="images/craftsman/craftHome/craftsman2.jpg">
                 <div class="card-content">
@@ -327,7 +207,7 @@ require './includes/header.inc.php';
 
             <!--        SECOND-->
             <div class="card xs">
-                <a class="noUnderline" href="craftman_johntomsBBQ.php">
+                <a href="craftman_johntomsBBQ.php">
                     <div class="overlay">
                 <img src="images/craftsman/craftHome/craftsman2.jpg">
                 <div class="card-content">
@@ -352,7 +232,7 @@ require './includes/header.inc.php';
 
             <!--        THIRD-->
             <div class="card xs">
-                <a class="noUnderline" href="craftman_johntomsBBQ.php">
+                <a href="craftman_johntomsBBQ.php">
                     <div class="overlay">
                 <img src="images/craftsman/craftHome/craftsman3.png">
                 <div class="card-content">

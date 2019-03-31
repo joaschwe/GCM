@@ -3,6 +3,13 @@ require './includes/header.inc.php';
 require './includes/nav.inc.php';
 ?>
 
+<style>
+
+    .craft-img {
+
+    }
+</style>
+
 
 <div class="container">
 
@@ -13,101 +20,129 @@ require './includes/nav.inc.php';
         <div class="flex-craft">
             <div class="craft-img">
                 <img src="images/craftsman/craftHome/johnTom1.PNG">
-                <div class="social-media">
-                    <i class="fa-globe"></i>
-                    <i class="fa-twitter"></i>
-                    <i class="fa-facebook"></i>
-                    <i class="fa-instagram"></i>
-                </div>
             </div>
 
 
             <div class="maintitle-craft">
-                <h3 class="clicker-sansSerif">John Tom's Barbecue</h3>
-<!--                <h3 class="craft-subhead">sub-header</h3>-->
+                <h3 class="clicker-sansSerif">John Tom's Barbecue</h3 class="clicker-sansSerif">
                 <h4 class="location">Muncie, IN | a <span>Good</span> Craftsman since 2018</h4>
+                <p>
+                    John Tom Branson (pictured) had a very non-traditional background. Southerner, turned midwesterner.
+                    Assembly-line factory worker, turned charcoal miner. His leisure time was spent barbecuing and wood
+                    smoking meat, but his sauce was the real MVP. Perfecting the small-batch craft before it was a
+                    movement,
+                    John Tom brought his southern values to midwest flavor.
+                </p>
             </div>
-        </div>
-        <div class="quote-section">
-
-            <p>
-                <img src="images/icons/quote-left.png" style="margin-left:-35px; padding-right:5px;">
-                John Tom Branson (pictured) had a very non-traditional background. Southerner, turned midwesterner.
-                Assembly-line factory worker, turned charcoal miner. His leisure time was spent barbecuing and wood
-                smoking meat, but his sauce was the real MVP. Perfecting the small-batch craft before it was a movement,
-                John Tom brought his southern values to midwest flavor.
-                <img src="images/icons/quote-right.png" style="margin-bottom: -18px; margin-left: 5px;">
-            </p>
-
         </div>
     </div>
 
 
-    <div class="sort">
+
+    <div class="moreItems">
         <p>Products by this Craftsman (4)</p>
-        <div class="sort-box">
-            <label for="sort-craftsman" id="inline">Sort by: </label>
-            <input type="text" name="sort-craftsman" id="inline">
-        </div>
     </div>
 
     <div class="xs">
         <div class="card-container">
-            <div class="card">
-                <img src="images/products/prodLand/product1.png">
-                <div class="card-content">
-                    <a href="clothing_accessories_&_jewelry.php"><h3>Excepteur Sint</h3></a>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit
-                        anim id est laborum.
-                    </p>
-                    <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-                </div>
+            <div class="card xs">
+                <a style="text-decoration: none;" href="good_product_item.php">
+                    <div class="overlay">
+                        <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
+                        <div class="card-content">
+                            <a href="#"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3></a>
+
+                            <p class="prod_description">
+                                Its  Bahama like fragrance will treat you to a tropical island
+                            </p>
+                            <div class="button" style="display: flex; justify-content: space-between;">
+                                <p class="size">8 0z.</p>
+                                <p class="price-right">$11.95</p>
+                            </div>
+                        </div>
+                    </div><!--overlay-->
+                    <div class="textBox">
+                        <div class="text">Island Fresh Bath Jelly Soap with its  Bahama like fragrance will treat you to a tropical island vacation.   Fresh greenery, lavender, vanilla, rose, jasmine, and melon, encircle bottom notes of fresh air that will awaken your senses.  Creamy richness and the rejuvenating smells will give you an all day pick me up!
+                            padding:15px;</div>
+                    </div>
+                </a>
             </div>
-            <div class="card">
-                <img src="images/products/prodLand/product2.png">
-                <div class="card-content">
-                    <a href="clothing_accessories_&_jewelry.php"><h3>Excepteur Sint</h3></a>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit
-                        anim id est laborum.
-                    </p>
-                    <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-                </div>
+
+            <div class="card xs">
+                <a style="text-decoration: none;" href="good_product_item.php">
+                    <div class="overlay">
+                        <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
+                        <div class="card-content">
+                            <a href="#"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3></a>
+
+                            <p class="prod_description">
+                                Its  Bahama like fragrance will treat you to a tropical island
+                            </p>
+                            <div class="button" style="display: flex; justify-content: space-between;">
+                                <p class="size">8 0z.</p>
+                                <p class="price-right">$11.95</p>
+                            </div>
+                        </div>
+                    </div><!--overlay-->
+                    <div class="textBox">
+                        <div class="text">Island Fresh Bath Jelly Soap with its  Bahama like fragrance will treat you to a tropical island vacation.   Fresh greenery, lavender, vanilla, rose, jasmine, and melon, encircle bottom notes of fresh air that will awaken your senses.  Creamy richness and the rejuvenating smells will give you an all day pick me up!
+                            padding:15px;</div>
+                    </div>
+                </a>
             </div>
-            <div class="card">
-                <img src="images/products/prodLand/product3.png">
-                <div class="card-content">
-                    <a href="clothing_accessories_&_jewelry.php"><h3>Excepteur Sint</h3></a>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit
-                        anim id est laborum.
-                    </p>
-                    <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-                </div>
+
+            <div class="card xs">
+                <a style="text-decoration: none;" href="good_product_item.php">
+                    <div class="overlay">
+                        <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
+                        <div class="card-content">
+                            <a href="#"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3></a>
+
+                            <p class="prod_description">
+                                Its  Bahama like fragrance will treat you to a tropical island
+                            </p>
+                            <div class="button" style="display: flex; justify-content: space-between;">
+                                <p class="size">8 0z.</p>
+                                <p class="price-right">$11.95</p>
+                            </div>
+                        </div>
+                    </div><!--overlay-->
+                    <div class="textBox">
+                        <div class="text">Island Fresh Bath Jelly Soap with its  Bahama like fragrance will treat you to a tropical island vacation.   Fresh greenery, lavender, vanilla, rose, jasmine, and melon, encircle bottom notes of fresh air that will awaken your senses.  Creamy richness and the rejuvenating smells will give you an all day pick me up!
+                            padding:15px;</div>
+                    </div>
+                </a>
             </div>
-            <div class="card">
-                <img src="images/products/prodLand/product4.png">
-                <div class="card-content">
-                    <a href="clothing_accessories_&_jewelry.php"><h3>Excepteur Sint</h3></a>
-                    <p>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit
-                        anim id est laborum.
-                    </p>
-                    <a href="#"><img class="share" src="images/icons/share1.jpg"/></a>
-                </div>
+
+            <div class="card xs">
+                <a style="text-decoration: none;" href="good_product_item.php">
+                    <div class="overlay">
+                        <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
+                        <div class="card-content">
+                            <a href="#"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3></a>
+
+                            <p class="prod_description">
+                                Its  Bahama like fragrance will treat you to a tropical island
+                            </p>
+                            <div class="button" style="display: flex; justify-content: space-between;">
+                                <p class="size">8 0z.</p>
+                                <p class="price-right">$11.95</p>
+                            </div>
+                        </div>
+                    </div><!--overlay-->
+                    <div class="textBox">
+                        <div class="text">Island Fresh Bath Jelly Soap with its  Bahama like fragrance will treat you to a tropical island vacation.   Fresh greenery, lavender, vanilla, rose, jasmine, and melon, encircle bottom notes of fresh air that will awaken your senses.  Creamy richness and the rejuvenating smells will give you an all day pick me up!
+                            padding:15px;</div>
+                    </div>
+                </a>
             </div>
+
         </div>
     </div>
-    <p class="more"><a href="good_craftsmen.php">See All <span>Craftsmen</span></a></p>
+    <div class="itemNavGroup">
+        <p class="navLeft"><a href="good_craftsmen.php">&larr; Back to Craftsmen</a></p>
+        <p class="navRight"><a href="good_products.php">Go to Products &rarr;</a></p>
+    </div>
 
 </div><!--end container-->
 

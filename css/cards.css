@@ -39,20 +39,21 @@ margin-left:20px; <--but then there's 20px added on to last child, too
     min-width: 150px;
     clear: both;
 }
-.x3 .card { /*-- 3 cards/row --*/
-    background-color: white;
-    margin: 20px;
-    width:30%;
-    min-width:200px;
-    box-sizing: border-box;
-    flex:auto;
-    height:100%;
-}
+
 .x4 .card { /*-- 4 cards/row --*/
     background-color: white;
     margin: 10px;
     width:25%;
     min-width:150px;
+    box-sizing: border-box;
+    flex:auto;
+    height:100%;
+}
+.x3 .card { /*-- 3 cards/row --*/
+    background-color: white;
+    margin: 20px;
+    width:30%;
+    min-width:200px;
     box-sizing: border-box;
     flex:auto;
     height:100%;
@@ -66,12 +67,6 @@ margin-left:20px; <--but then there's 20px added on to last child, too
     flex:auto;
     height:100%;
     position:relative;
-}
-.filterPanel {
-    /*width: 200px;*/
-    /*margin:20px 20px 20px 0;*/
-    /*box-sizing: border-box;*/
-    background-color: lightcyan;
 }
 .card img {
     max-width: 100%;
@@ -89,13 +84,21 @@ margin-left:20px; <--but then there's 20px added on to last child, too
 .card-content a {
     text-decoration: none;
 }
-.card-content h3:hover, .card-content h4:hover {
-    color:#8DC63F;
-}
+/*.card-content h3:hover, .card-content h4:hover {*/
+    /*color:#8DC63F;*/
+/*}*/
 p.price {
     text-align: left;
     display:inline-block;
     font-weight:bold;
+}
+p.price-right {
+    text-align: right;
+    font-weight: bold;
+}
+p.size {
+    font-size: 16px;
+    font-weight: bold;
 }
 img.share {
     display:inline-block;

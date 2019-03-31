@@ -16,6 +16,30 @@ function setBindings() {
         //     });
         // }
 
+    //content shortener -- read more expander
+    // $(function () {
+    //     $('#unhide').removeClass('hidden');
+    // });
+
+        jQuery('.js_more').readmore({
+            speed: 300,
+            collapsedHeight: 100,
+            moreLink: '<a href="#">...more</a>',
+            lessLink: '<a href="#">close</a>',
+            heightMargin: 16
+        });
+
+
+
+
+
+
+
+
+
+
+
+
     // character delimiter for primary cards
     $(function(){
         $(".prod_description").each(function(i){
@@ -29,6 +53,19 @@ function setBindings() {
             }
         });
     });
+
+
+    // character delimiter for secondary prod cards
+    // $(function() {
+    //     $(".quote").each(function(i){
+    //         len=$(this).text().length;
+    //         if(len>10)
+    //         {
+    //             $(this).text($(this).text().substr(0,350)+'...').append('<span style="color: #8DC63F;">more');
+    //         }
+    //     });
+    // });
+
 
     // character delimiter for secondary prod cards
     $(function(){
