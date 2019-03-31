@@ -39,10 +39,11 @@ $currentPage = basename($_SERVER['SCRIPT_FILENAME']);
 
     </div>
     <nav class="bottom">
+        <div <?php if ($currentPage == 'index.php') {echo ' id="here" class="selected prod" ';} ?> ><a href="../index.php">Home</a></div>
         <div <?php if ($currentPage == 'good_products.php') {echo ' id="here" class="selected prod" ';} ?> ><a href="../good_products.php">Products</a></div>
         <div <?php if ($currentPage == 'good_craftsmen.php') {echo ' id="here" class="selected craft" ';} ?> ><a href="../good_craftsmen.php">Craftsmen</a></div>
         <div <?php if ($currentPage == 'good_causes.php') {echo ' id="here" class="selected cause" ';} ?> ><a href="../good_causes.php">Causes</a></div>
-        <div <?php if ($currentPage == 'about_us.php') {echo ' id="here" class="selected about" ';} ?> ><a href="../about_us.php">About</a></div>
+        <div <?php if ($currentPage == 'about.php') {echo ' id="here" class="selected about" ';} ?> ><a href="../about.php">About</a></div>
         <div <?php if ($currentPage == 'faqs.php') {echo ' id="here" class="selected faq" ';} ?> ><a href="../faqs.php">FAQs</a></div>
     </nav>
 

@@ -26,13 +26,21 @@ require './includes/nav.inc.php';
             <div class="maintitle-craft">
                 <h3 class="clicker-sansSerif">John Tom's Barbecue</h3 class="clicker-sansSerif">
                 <h4 class="location">Muncie, IN | a <span>Good</span> Craftsman since 2018</h4>
-                <p>
-                    John Tom Branson (pictured) had a very non-traditional background. Southerner, turned midwesterner.
-                    Assembly-line factory worker, turned charcoal miner. His leisure time was spent barbecuing and wood
-                    smoking meat, but his sauce was the real MVP. Perfecting the small-batch craft before it was a
-                    movement,
-                    John Tom brought his southern values to midwest flavor.
-                </p>
+
+                <div class="content-info">
+
+                    <div id="unhide">
+                        <div class="sec1 js_more">
+                            <h4 class="sec1-title">Who is John Tom?</h4>
+                            <p class="sec1-content">
+                                John Tom Branson (pictured) had a very non-traditional background. Southerner, turned midwesterner.
+                                Assembly-line factory worker, turned charcoal miner. His leisure time was spent barbecuing and wood
+                                smoking meat, but his sauce was the real MVP. Perfecting the small-batch craft before it was a
+                                movement, John Tom brought his southern values to midwest flavor.</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>

@@ -46,7 +46,7 @@ require './includes/nav.inc.php';
                     <h3 class="clicker-sansSerif">Hollis Adams</h3>
                     <h4 class="location">Indiana | a <span>Good</span> Cause since 2018</h4>
 
-                    <div class="causeAmt" style="margin-top:25px;">
+                    <div class="causeAmt" style="margin-top:10%;">
                         <h3 class="amt" style="font-size:24px;"><span class="raised" style="font-size:24px;">$0.00</span> has been raised for this <span style="font-size: 30px;">Good</span> Cause</h3>
                     </div>
 
@@ -110,9 +110,9 @@ require './includes/nav.inc.php';
                         of our community - you!
                     </p>
                 </div>
-                </div>
             </div>
         </div>
+    </div>
 
 
     <div class="moreItems">

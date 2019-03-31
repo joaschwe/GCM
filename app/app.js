@@ -31,6 +31,17 @@ function setBindings() {
 
 
 
+        //hide empty content-info divs for see more paragraphs
+    // $(function() {
+    //     if($('h4 .sec2-title').length == 0) {
+    //         $('.sec2').remove();
+    //         $('.sec2 a').remove();
+    //
+    //         if ($('h4 .sec3-title').length == 0) {
+    //             $('.sec3').hide();
+    //         }
+    //     }
+    // });
 
 
 
