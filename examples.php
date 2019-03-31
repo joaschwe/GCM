@@ -185,7 +185,7 @@ require './includes/header.inc.php';
         <div class="card-container">
             <!--        FIRST-->
             <div class="card xs">
-                <a href="craftman_johntomsBBQ.php">
+                <a href="craftsman_johntomsBBQ.php">
                     <div class="overlay">
                 <img src="images/craftsman/craftHome/craftsman2.jpg">
                 <div class="card-content">
@@ -207,7 +207,7 @@ require './includes/header.inc.php';
 
             <!--        SECOND-->
             <div class="card xs">
-                <a href="craftman_johntomsBBQ.php">
+                <a href="craftsman_johntomsBBQ.php">
                     <div class="overlay">
                 <img src="images/craftsman/craftHome/craftsman2.jpg">
                 <div class="card-content">
@@ -232,7 +232,7 @@ require './includes/header.inc.php';
 
             <!--        THIRD-->
             <div class="card xs">
-                <a href="craftman_johntomsBBQ.php">
+                <a href="craftsman_johntomsBBQ.php">
                     <div class="overlay">
                 <img src="images/craftsman/craftHome/craftsman3.png">
                 <div class="card-content">

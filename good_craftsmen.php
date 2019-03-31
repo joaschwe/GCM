@@ -26,7 +26,7 @@ require './includes/nav.inc.php';
 
     <div class="card-container">
         <div class="card">
-            <a href="craftman_johntomsBBQ.php">
+            <a href="craftsman_johntomsBBQ.php">
                 <div class="overlay">
             <img src="images/craftsman/craftHome/johnTom2.PNG">
             <div class="card-content">
@@ -44,7 +44,7 @@ require './includes/nav.inc.php';
         </div>
 
         <div class="card">
-            <a href="craftman.php">
+            <a href="craftsman.php">
                 <div class="overlay">
             <img src="images/craftsman/craftHome/craftsman2.jpg">
             <div class="card-content">
@@ -62,7 +62,7 @@ require './includes/nav.inc.php';
         </div>
 
         <div class="card">
-            <a href="craftman.php">
+            <a href="craftsman.php">
                 <div class="overlay">
                     <img src="images/craftsman/craftHome/craftsman3.png">
                     <div class="card-content">
@@ -80,7 +80,7 @@ require './includes/nav.inc.php';
         </div>
 
         <div class="card">
-            <a href="craftman.php">
+            <a href="craftsman.php">
                 <div class="overlay">
                     <img src="images/craftsman/craftHome/craftsman4-small.jpg">
                     <div class="card-content">
@@ -98,7 +98,7 @@ require './includes/nav.inc.php';
         </div>
 
         <div class="card">
-            <a href="craftman.php">
+            <a href="craftsman.php">
                 <div class="overlay">
                     <img src="images/craftsman/craftHome/craftsman5-small.jpg">
                     <div class="card-content">
@@ -116,7 +116,7 @@ require './includes/nav.inc.php';
         </div>
 
         <div class="card">
-            <a href="craftman.php">
+            <a href="craftsman.php">
                 <div class="overlay">
                     <img src="images/craftsman/craftHome/craftsman6-small.jpg">
                     <div class="card-content">
@@ -134,7 +134,7 @@ require './includes/nav.inc.php';
         </div>
 
         <div class="card">
-            <a href="craftman.php">
+            <a href="craftsman.php">
                 <div class="overlay">
                     <img src="images/craftsman/craftHome/craftsman7-small.jpg">
                     <div class="card-content">
@@ -152,7 +152,7 @@ require './includes/nav.inc.php';
         </div>
 
         <div class="card">
-            <a href="craftman.php">
+            <a href="craftsman.php">
                 <div class="overlay">
                     <img src="images/craftsman/craftHome/craftsman8-small.jpg">
                     <div class="card-content">

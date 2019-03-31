@@ -119,22 +119,28 @@ require './includes/nav.inc.php';
         <p>More Causes</p>
     </div>
 
-    <div class="xs">
+        <div class="xs">
         <div class="card-container">
             <div class="card">
                 <a href="cause.php">
+                    <div class="overlay">
                 <img src="images/causes/causeHome/boysgirlsclub.png">
-                <div class="card-content">
+<!--                <div class="card-content">-->
 <!--                    <h3>Excepteur Sint</h3>-->
 <!--                    <p>-->
 <!--                        Duis aute irure dolor in reprehenderit in voluptate<span class="color">...more</span>-->
 <!--                    </p>-->
-                </div>
+<!--                </div>-->
                 </a>
+            </div><!--overlay-->
+            <div class="textBox">
+                <div class="text">Our mission is to open the world to adults with developmental disabilities</div>
+            </div>
             </div>
 
             <div class="card">
                 <a href="cause.php">
+                    <div class="overlay">
                 <img src="images/causes/causeHome/childrens.jpg">
                 <div class="card-content">
 <!--                    <h3>Excepteur Sint</h3>-->
@@ -143,10 +149,15 @@ require './includes/nav.inc.php';
 <!--                    </p>-->
                 </div>
             </a>
+            </div><!--overlay-->
+            <div class="textBox">
+                <div class="text">Our mission is to open the world to adults with developmental disabilities</div>
             </div>
+        </div>
 
             <div class="card">
                 <a href="cause.php">
+                    <div class="overlay">
                 <img src="images/causes/causeHome/coworker.jpg">
                 <div class="card-content">
 <!--                    <h3>Excepteur Sint</h3>-->
@@ -155,10 +166,15 @@ require './includes/nav.inc.php';
 <!--                    </p>-->
                 </div>
             </a>
+            </div><!--overlay-->
+            <div class="textBox">
+                <div class="text">Our mission is to open the world to adults with developmental disabilities</div>
             </div>
+        </div>
 
             <div class="card">
                 <a href="cause.php">
+                    <div class="overlay">
                 <img src="images/causes/causeHome/red.png">
                 <div class="card-content">
 <!--                    <h3>Excepteur Sint</h3>-->
@@ -167,7 +183,11 @@ require './includes/nav.inc.php';
 <!--                    </p>-->
                 </div>
             </a>
-            </div>
+            </div><!--overlay-->
+<div class="textBox">
+    <div class="text">Our mission is to open the world to adults with developmental disabilities</div>
+</div>
+</div>
 
         </div>
         <div class="itemNavGroup">

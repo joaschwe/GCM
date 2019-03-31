@@ -172,7 +172,7 @@ Go Fundshopping  button above.
         <div class="card">
             <img src="images/craftsman/craftHome/johnTom1.PNG">
             <div class="card-content">
-                <a href="craftman_johntomsBBQ.php"><h3>John Tom's Barbecue</h3></a>
+                <a href="craftsman_johntomsBBQ.php"><h3>John Tom's Barbecue</h3></a>
                 <p>
                     John Tom Branson (pictured), had a very non-traditional background. Southerner, turned midwesterner. Assembly-line factory worker, turned...
                 </p>

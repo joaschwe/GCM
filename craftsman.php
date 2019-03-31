@@ -113,9 +113,8 @@ require './includes/nav.inc.php';
                     <div class="overlay">
                         <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
                         <div class="card-content">
-                            <a href="#"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3></a>
-
-                            <p class="prod_description">
+                            <h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3>
+                                <p class="prod_description">
                                 Its  Bahama like fragrance will treat you to a tropical island
                             </p>
                             <div class="button" style="display: flex; justify-content: space-between;">
@@ -136,9 +135,8 @@ require './includes/nav.inc.php';
                     <div class="overlay">
                         <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
                         <div class="card-content">
-                            <a href="#"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3></a>
-
-                            <p class="prod_description">
+                            <h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3>
+                                <p class="prod_description">
                                 Its  Bahama like fragrance will treat you to a tropical island
                             </p>
                             <div class="button" style="display: flex; justify-content: space-between;">
@@ -159,8 +157,7 @@ require './includes/nav.inc.php';
                     <div class="overlay">
                         <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
                         <div class="card-content">
-                            <a href="#"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3></a>
-
+                            <h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3>
                             <p class="prod_description">
                                 Its  Bahama like fragrance will treat you to a tropical island
                             </p>
@@ -177,13 +174,12 @@ require './includes/nav.inc.php';
                 </a>
             </div>
 
+
             <div class="card xs">
                 <a style="text-decoration: none;" href="good_product_item.php">
                     <div class="overlay">
                         <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
-                        <div class="card-content">
-                            <a href="#"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3></a>
-
+                        <div class="card-content"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3>
                             <p class="prod_description">
                                 Its  Bahama like fragrance will treat you to a tropical island
                             </p>
@@ -204,7 +200,7 @@ require './includes/nav.inc.php';
     </div>
             <div class="itemNavGroup">
                 <p class="navLeft"><a href="good_causes.php">&larr; Back to Causes</a></p>
-                <p class="navRight"><a href="good_products.php">Shop Products &rarr;</a></p>
+                <p class="navRight" style="text-align: right;"><a href="good_products.php">Shop All Products &rarr;</a></p>
 
             </div>
 

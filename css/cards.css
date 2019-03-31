@@ -117,7 +117,7 @@ img.share:hover {
     -webkit-filter: blur(3px);
     filter: blur(0.1em);
 }
-.overlay { /*---if you want to add in an opacity overlay on the img---*/
+.overlayProd { /*---if you want to add in an opacity overlay on the img---*/
     /*position: absolute;*/
     /*top: 0;*/
     /*left:0;*/
@@ -125,6 +125,17 @@ img.share:hover {
     /*width:100%;*/
     /*background-color: black;*/
     /*opacity: 0.3;*/
+    /*transition: .5s ease;*/
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width:100%;
+    /*background-color:white;*/
+    color:whitesmoke;
 }
 button.over {
     position: absolute;
@@ -139,7 +150,7 @@ button.over {
     font-size: 16px;
     padding: 18px 0;
     width:260px;
-    border: none;
+    border: 1px solid #8DBE5A;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;

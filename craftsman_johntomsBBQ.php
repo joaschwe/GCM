@@ -50,8 +50,7 @@ require './includes/nav.inc.php';
                     <div class="overlay">
                         <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
                         <div class="card-content">
-                            <a href="#"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3></a>
-
+                            <h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3>
                             <p class="prod_description">
                                 Its  Bahama like fragrance will treat you to a tropical island
                             </p>
@@ -73,8 +72,7 @@ require './includes/nav.inc.php';
                     <div class="overlay">
                         <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
                         <div class="card-content">
-                            <a href="#"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3></a>
-
+                            <h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3>
                             <p class="prod_description">
                                 Its  Bahama like fragrance will treat you to a tropical island
                             </p>
@@ -96,8 +94,7 @@ require './includes/nav.inc.php';
                     <div class="overlay">
                         <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
                         <div class="card-content">
-                            <a href="#"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3></a>
-
+                            <h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3>
                             <p class="prod_description">
                                 Its  Bahama like fragrance will treat you to a tropical island
                             </p>
@@ -114,13 +111,12 @@ require './includes/nav.inc.php';
                 </a>
             </div>
 
+
             <div class="card xs">
                 <a style="text-decoration: none;" href="good_product_item.php">
                     <div class="overlay">
                         <img src="images/products/bathBeauty/hickoryRidgeSoaps/islandFresh.PNG">
-                        <div class="card-content">
-                            <a href="#"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3></a>
-
+                        <div class="card-content"><h3 style="margin-bottom:10px;">Island Fresh Jelly Soap</h3>
                             <p class="prod_description">
                                 Its  Bahama like fragrance will treat you to a tropical island
                             </p>
@@ -139,6 +135,7 @@ require './includes/nav.inc.php';
 
         </div>
     </div>
+
     <div class="itemNavGroup">
         <p class="navLeft"><a href="good_craftsmen.php">&larr; Back to Craftsmen</a></p>
         <p class="navRight"><a href="good_products.php">Go to Products &rarr;</a></p>
